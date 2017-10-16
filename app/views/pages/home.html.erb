@@ -9,6 +9,7 @@
 
 <h3><%= user.first_name %> <%= user.last_name %></h3>
 <% end %>
+
 <% group.posts.each do |post| %>
 <%= post.content %> - <%= post.user.first_name %> <br>
 
